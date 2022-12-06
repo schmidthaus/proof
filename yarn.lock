@@ -2241,31 +2241,32 @@
     universal-user-agent "^4.0.0"
 
 "@proof-ui/a11y-plugin@link:plugins/accessibility":
-  version "0.0.7"
+  version "0.0.10"
   dependencies:
     axe-core "3.1.2"
 
 "@proof-ui/add-all-plugin@link:plugins/add-all":
-  version "0.0.7"
+  version "0.0.10"
 
 "@proof-ui/applitools-plugin@link:plugins/applitools":
-  version "0.0.7"
+  version "0.0.10"
   dependencies:
     "@applitools/eyes-selenium" "4.28.1"
     "@applitools/eyes.webdriverio" "^2.9.0"
 
 "@proof-ui/babel-plugin@link:plugins/babel":
-  version "0.0.7"
+  version "0.0.10"
   dependencies:
     "@babel/core" "^7.5.4"
     "@babel/register" "^7.4.4"
     babel-preset-power-assert "^3.0.0"
 
 "@proof-ui/browser@link:packages/browser":
-  version "0.0.7"
+  version "0.0.10"
   dependencies:
     "@proof-ui/logger" "link:packages/logger"
     "@proof-ui/utils" "link:packages/utils"
+    "@types/tapable" "^1.0.4"
     "@types/url-join" "4.0.0"
     "@types/url-parse" "1.4.3"
     "@types/webdriverio" "^4.10.1"
@@ -2277,10 +2278,10 @@
     webdriverio "^4.14.0"
 
 "@proof-ui/cli-plugin@link:packages/cli-plugin":
-  version "0.0.7"
+  version "0.0.10"
 
 "@proof-ui/cli@link:packages/cli":
-  version "0.0.7"
+  version "0.0.10"
   dependencies:
     "@proof-ui/babel-plugin" "link:plugins/babel"
     "@proof-ui/cli-plugin" "link:packages/cli-plugin"
@@ -2293,54 +2294,54 @@
     url "^0.11.0"
 
 "@proof-ui/config@link:packages/config":
-  version "0.0.7"
+  version "0.0.10"
   dependencies:
     "@proof-ui/browser" "link:packages/browser"
     "@proof-ui/logger" "link:packages/logger"
     cosmiconfig "^5.2.1"
 
 "@proof-ui/console-plugin@link:plugins/console":
-  version "0.0.7"
+  version "0.0.10"
   dependencies:
     chalk "^2.4.2"
 
 "@proof-ui/core@link:packages/core":
-  version "0.0.7"
+  version "0.0.10"
   dependencies:
     "@proof-ui/browser" "link:packages/browser"
     "@proof-ui/logger" "link:packages/logger"
     "@proof-ui/test" "link:packages/test"
+    "@types/tapable" "^1.0.4"
     promise-pool-executor "^1.1.1"
     tapable "^1.1.3"
-    "@types/tapable" "^1.0.4"
 
 "@proof-ui/junit-plugin@link:plugins/junit":
-  version "0.0.7"
+  version "0.0.10"
   dependencies:
     junit-report-builder "^1.3.2"
     xmlbuilder "^13.0.2"
 
 "@proof-ui/logger@link:packages/logger":
-  version "0.0.7"
+  version "0.0.10"
   dependencies:
     "@types/signale" "^1.2.1"
     signale "^1.4.0"
 
 "@proof-ui/skip-tests-plugin@link:plugins/skip-tests":
-  version "0.0.7"
+  version "0.0.10"
 
 "@proof-ui/storybook@link:packages/storybook":
-  version "0.0.7"
+  version "0.0.10"
 
 "@proof-ui/test@link:packages/test":
-  version "0.0.7"
+  version "0.0.10"
   dependencies:
     "@proof-ui/browser" "link:packages/browser"
     "@types/power-assert" "^1.5.0"
     power-assert "^1.6.1"
 
 "@proof-ui/utils@link:packages/utils":
-  version "0.0.7"
+  version "0.0.10"
 
 "@reach/router@^1.2.1":
   version "1.2.1"
@@ -12165,9 +12166,9 @@ qs@^6.6.0:
   integrity sha512-27RP4UotQORTpmNQDX8BHPukOnBP3p1uUJY5UnDhaJB+rMt9iMsok724XL+UHU23bEFOHRMQ2ZhI99qOWUMGFA==
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 query-string@^4.1.0:
   version "4.3.4"
